@@ -13,7 +13,12 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Nisarg's label"));
+
 			root.getChildren().add(new Label("Nisarg's branch"));
+
+			root.getChildren().add(new Label("Ishita's branch"));
+			
+
 			Scene scene = new Scene(root,400,400);
 			
 			primaryStage.setScene(scene);
